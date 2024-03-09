@@ -10,5 +10,8 @@ namespace ContactManager.Data
         public string Email { get; set; }
         public EmailType Type { get; set; }
         public virtual Contact Contact { get; set; }
+        
+        //add bool IsPrimary
+        public bool IsPrimary { get; set; }
     }
 }
